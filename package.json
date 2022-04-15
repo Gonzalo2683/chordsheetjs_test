@@ -1,0 +1,28 @@
+{
+  "name": "worship_song",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "source": "songbook/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "wp": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "parcel": "^2.4.1",
+    "process": "^0.11.10",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "dependencies": {
+    "chordjs": "^2.0.1",
+    "chordsheetjs": "^4.10.0"
+  }
+}
